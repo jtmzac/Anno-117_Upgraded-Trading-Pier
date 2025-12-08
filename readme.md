@@ -15,4 +15,4 @@ You can use this as soon as you unlock normal trading piers via the upgrade tool
 ## Why not a Technology/Research Node?
 I did consider adding this as a research technology but have currently decided against it. Modding the research system seems to be highly problematic for mod conflicts and even being broken by game updates/DLCs in future.
 
-If I am wrong and there is a way to do this robustly please let me know.
+If I am wrong and there is a way to do this robustly feel free to let me know.
