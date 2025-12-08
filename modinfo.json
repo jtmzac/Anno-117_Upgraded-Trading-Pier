@@ -1,0 +1,15 @@
+{
+  "Anno": 8,
+  "ModID": "upgraded-trading-pier-jtmzac",
+  "Version": "1.0.0",
+  "Difficulty": "easier",
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "Upgraded Trading Pier"
+  },
+  "Description": {
+    "English": "Allows upgrading the trading pier to increase the cargo loading rate to 4 units per second "
+  }
+}

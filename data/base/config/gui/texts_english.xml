@@ -1,0 +1,9 @@
+
+<ModOps>
+  <ModOp Add="/TextExport/Texts[1]">
+    <Text>
+      <Text>Improved Trading Pier</Text>
+      <LineId>1400300050</LineId>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,357 @@
+
+<ModOps>
+
+	<ModOp Add="/AssetList/Groups[last()]"><Group><Assets /></Group></ModOp>
+
+
+<!-- I considered adding the loading rates into the in game descriptions but since it would break in other languages I've decided against it for now.
+Hopefully the devs will add loading speeds into the game UI like in 1800 -->
+
+	<!-- <ModOp Merge="@38999">
+		<ObjectMenuTradePierScene>
+			<NormalPierDescription>1400300051</NormalPierDescription>
+			<ExclusiveTradePierDescription>1400300052</ExclusiveTradePierDescription>
+		</ObjectMenuTradePierScene>
+	</ModOp> -->
+
+
+
+
+
+	<Asset>
+		<Template>TradeBuilding</Template>
+		<Values>
+			<Standard>
+				<GUID>1400300050</GUID>
+				<Name>Harbor Pier Roman 2 Custom</Name>
+				<IconFilename>data/ui/fhd/base/icon_content/building/icon_3d_harbour_trading_pier.png</IconFilename>
+				<InfoDescription>-6908913314181029955</InfoDescription>
+			</Standard>
+			<Text>
+				<OasisId>1400300050</OasisId>
+			</Text>
+			<Blocking>
+				<GroundPolygonAsset>41342</GroundPolygonAsset>
+				<GroundDecalAsset>100446</GroundDecalAsset>
+				<GroundDecalInvisible>101008</GroundDecalInvisible>
+				<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				<NeedsGuaranteedSeaAccess>1</NeedsGuaranteedSeaAccess>
+				<CreateBorderRect />
+			</Blocking>
+			<Building>
+				<BuildingType>Warehouse</BuildingType>
+				<BuildingCategoryName>-6909388868990972645</BuildingCategoryName>
+				<SnapRadius>10</SnapRadius>
+				<TerrainType>Water_Including_Coast</TerrainType>
+				<AllowWaterPlacement>81489</AllowWaterPlacement>
+				<AssociatedRegions>Roman</AssociatedRegions>
+				<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+			</Building>
+			<Threatable />
+			<Cost>
+				<Costs>
+					<Item>
+						<Ingredient>1010017</Ingredient>
+						<Amount>1000</Amount>
+					</Item>
+					<Item>
+						<Ingredient>2174</Ingredient>
+						<Amount>20</Amount>
+					</Item>
+					<Item>
+						<Ingredient>2176</Ingredient>
+						<Amount>15</Amount>
+					</Item>
+				</Costs>
+			</Cost>
+			<Selection>
+				<GUIType>TradePier</GUIType>
+				<OnSelection>
+					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+					<Values>
+						<ActionList />
+					</Values>
+				</OnSelection>
+			</Selection>
+			<Object>
+				<Variations>
+					<Item>
+						<Filename>data/jtmzac/harbor_pier.cfg</Filename>
+					</Item>
+				</Variations>
+			</Object>
+			<Constructable />
+			<Mesh>
+				<SetCompanyLogo>1</SetCompanyLogo>
+			</Mesh>
+			<SoundEmitter>
+				<OBJ_Active>
+					<Item>
+						<Sound>49692</Sound>
+					</Item>
+					<Item>
+						<Sound>68914</Sound>
+					</Item>
+				</OBJ_Active>
+			</SoundEmitter>
+			<Locked>
+            	<DefaultLockedState>0</DefaultLockedState>
+          	</Locked>
+			<Infolayer />
+			<FeedbackController>
+				<ShouldDisableFeedbackOnThreat>0</ShouldDisableFeedbackOnThreat>
+			</FeedbackController>
+			<LogisticNode />
+			<MinimapToken>
+				<TokenAsset>0</TokenAsset>
+			</MinimapToken>
+			<AmbientMoodProvider>
+				<Murmur>Harbor</Murmur>
+				<DynamicEnvironmentType>Harbor</DynamicEnvironmentType>
+			</AmbientMoodProvider>
+			<LoadingPier>
+				<NumOfPiers>2</NumOfPiers>
+				<LoadingSpeed>4</LoadingSpeed>
+				<MinLoadingTime>5</MinLoadingTime>
+				<AllowExclusiveTrading>1</AllowExclusiveTrading>
+			</LoadingPier>
+			<Health>
+				<UnitDefenderType>CivilianBuilding</UnitDefenderType>
+				<BaseHealth>1000</BaseHealth>
+				<PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+				<HPBarOffset>7</HPBarOffset>
+				<DefenseByAIFactor>9994</DefenseByAIFactor>
+				<HasRuinState>1</HasRuinState>
+				<SelfHealPerHealTick>1</SelfHealPerHealTick>
+				<PassiveRuinRepairTime>2100000</PassiveRuinRepairTime>
+				<DestructionWarScore>150</DestructionWarScore>
+			</Health>
+			<Upgradable />
+			<Maintenance>
+				<Maintenances>
+					<Item>
+						<Product>1010017</Product>
+						<Amount>50</Amount>
+					</Item>
+					<Item>
+						<Product>2181</Product>
+						<Amount>20</Amount>
+					</Item>
+				</Maintenances>
+				<ConsumerPriority>3</ConsumerPriority>
+				<IncomeCategory>HarbourBuildings</IncomeCategory>
+			</Maintenance>
+			<Pausable />
+			<Buffable />
+			<IncidentInfectable>
+				<DestructionScore>110</DestructionScore>
+			</IncidentInfectable>
+			<AttributeProvider>
+				<Population>1499</Population>
+			</AttributeProvider>
+		</Values>
+	</Asset>
+
+
+	<Asset>
+		<Template>TradeBuilding</Template>
+		<Values>
+			<Standard>
+				<GUID>1400300051</GUID>
+				<Name>Harbor Pier Roman Celtic 2 Custom</Name>
+				<IconFilename>data/ui/fhd/base/icon_content/building/icon_3d_harbour_trading_pier.png</IconFilename>
+				<InfoDescription>-6901561767280499281</InfoDescription>
+			</Standard>
+			<Text>
+				<OasisId>1400300050</OasisId>
+			</Text>
+			<Blocking>
+				<GroundPolygonAsset>42436</GroundPolygonAsset>
+				<GroundDecalAsset>100446</GroundDecalAsset>
+				<GroundDecalInvisible>101008</GroundDecalInvisible>
+				<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				<NeedsGuaranteedSeaAccess>1</NeedsGuaranteedSeaAccess>
+				<CreateBorderRect />
+			</Blocking>
+			<Building>
+				<BuildingType>Warehouse</BuildingType>
+				<BuildingCategoryName>-6909388868990972645</BuildingCategoryName>
+				<SnapRadius>10</SnapRadius>
+				<TerrainType>Water_Including_Coast</TerrainType>
+				<AllowWaterPlacement>81489</AllowWaterPlacement>
+				<AssociatedRegions>Celtic</AssociatedRegions>
+			</Building>
+			<Threatable />
+			<Cost>
+				<Costs>
+					<Item>
+						<Ingredient>1010017</Ingredient>
+						<Amount>1000</Amount>
+					</Item>
+					<Item>
+						<Ingredient>2174</Ingredient>
+						<Amount>25</Amount>
+					</Item>
+					<Item>
+						<Ingredient>2176</Ingredient>
+						<Amount>15</Amount>
+					</Item>
+					<Item>
+						<Ingredient>2178</Ingredient>
+					</Item>
+				</Costs>
+			</Cost>
+			<Selection>
+				<GUIType>TradePier</GUIType>
+				<OnSelection>
+					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+					<Values>
+						<ActionList />
+					</Values>
+				</OnSelection>
+				<AllowedDragType />
+			</Selection>
+			<Object>
+				<Variations>
+					<Item>
+						<Filename>data/jtmzac/harbor_pier.cfg</Filename>
+					</Item>
+				</Variations>
+			</Object>
+			<Constructable />
+			<Mesh>
+				<SetCompanyLogo>1</SetCompanyLogo>
+			</Mesh>
+			<SoundEmitter>
+				<OBJ_Active>
+					<Item>
+						<Sound>68914</Sound>
+					</Item>
+				</OBJ_Active>
+			</SoundEmitter>
+			<Locked>
+            	<DefaultLockedState>0</DefaultLockedState>
+          	</Locked>
+			<Infolayer />
+			<FeedbackController>
+				<ShouldDisableFeedbackOnThreat>0</ShouldDisableFeedbackOnThreat>
+			</FeedbackController>
+			<LogisticNode />
+			<MinimapToken>
+				<TokenAsset>0</TokenAsset>
+			</MinimapToken>
+			<AmbientMoodProvider>
+				<Murmur>Harbor</Murmur>
+				<DynamicEnvironmentType>BuildingIndustry</DynamicEnvironmentType>
+			</AmbientMoodProvider>
+			<LoadingPier>
+				<NumOfPiers>2</NumOfPiers>
+				<LoadingSpeed>4</LoadingSpeed>
+				<MinLoadingTime>5</MinLoadingTime>
+				<AllowExclusiveTrading>1</AllowExclusiveTrading>
+			</LoadingPier>
+			<Health>
+				<BaseHealth>1000</BaseHealth>
+				<PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+				<HPBarOffset>7</HPBarOffset>
+				<DefenseByAIFactor>9994</DefenseByAIFactor>
+				<HasRuinState>1</HasRuinState>
+				<SelfHealPerHealTick>1</SelfHealPerHealTick>
+				<PassiveRuinRepairTime>2100000</PassiveRuinRepairTime>
+				<DestructionWarScore>150</DestructionWarScore>
+			</Health>
+			<Upgradable />
+			<Maintenance>
+				<Maintenances>
+					<Item>
+						<Product>1010017</Product>
+						<Amount>50</Amount>
+					</Item>
+					<Item>
+						<Product>2192</Product>
+						<Amount>20</Amount>
+					</Item>
+				</Maintenances>
+				<ConsumerPriority>3</ConsumerPriority>
+			</Maintenance>
+			<Pausable />
+			<Buffable />
+			<IncidentInfectable>
+				<DestructionScore>110</DestructionScore>
+			</IncidentInfectable>
+			<AttributeProvider>
+				<Population>1500</Population>
+			</AttributeProvider>
+		</Values>
+	</Asset>
+
+
+
+	<ModOp Merge="@31608">
+		<Upgradable>
+			<PossibleUpgrades>
+				<Item>
+					<UpgradeGUID>1400300050</UpgradeGUID>
+					<Cost>
+						<Item>
+							<Amount>250</Amount>
+							<Ingredient>1010017</Ingredient>
+						</Item>
+						<Item>
+							<Amount>25</Amount>
+							<Ingredient>2174</Ingredient>
+						</Item>
+						<Item>
+							<Amount>5</Amount>
+							<Ingredient>2176</Ingredient>
+						</Item>
+						<Item>
+							<Ingredient>2178</Ingredient>
+						</Item>
+						<Item>
+							<Ingredient>2179</Ingredient>
+						</Item>
+						<Item>
+							<Ingredient>2152</Ingredient>
+						</Item>
+					</Cost>
+				</Item>
+			</PossibleUpgrades>
+		</Upgradable>
+	</ModOp>
+
+
+	<ModOp Merge="@31611/Upgradable">
+		<PossibleUpgrades>
+			<Item>
+				<UpgradeGUID>1400300051</UpgradeGUID>
+				<Cost>
+					<Item>
+						<Amount>2000</Amount>
+						<Ingredient>1010017</Ingredient>
+					</Item>
+					<Item>
+						<Amount>25</Amount>
+						<Ingredient>2174</Ingredient>
+					</Item>
+					<Item>
+						<Amount>15</Amount>
+						<Ingredient>2176</Ingredient>
+					</Item>
+					<Item>
+						<Ingredient>2178</Ingredient>
+					</Item>
+					<Item>
+						<Ingredient>2179</Ingredient>
+					</Item>
+					<Item>
+						<Ingredient>2152</Ingredient>
+					</Item>
+				</Cost>
+			</Item>
+		</PossibleUpgrades>
+	</ModOp>
+
+
+
+</ModOps>
