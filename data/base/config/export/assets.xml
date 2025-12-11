@@ -15,9 +15,6 @@ Hopefully the devs will add loading speeds into the game UI like in 1800 -->
 	</ModOp> -->
 
 
-
-
-
 	<Asset>
 		<Template>TradeBuilding</Template>
 		<Values>
@@ -286,7 +283,7 @@ Hopefully the devs will add loading speeds into the game UI like in 1800 -->
 	</Asset>
 
 
-
+	<!-- Add the new piers as upgrades to base game ones -->
 	<ModOp Merge="@31608">
 		<Upgradable>
 			<PossibleUpgrades>
@@ -319,8 +316,6 @@ Hopefully the devs will add loading speeds into the game UI like in 1800 -->
 			</PossibleUpgrades>
 		</Upgradable>
 	</ModOp>
-
-
 	<ModOp Merge="@31611/Upgradable">
 		<PossibleUpgrades>
 			<Item>
@@ -350,6 +345,31 @@ Hopefully the devs will add loading speeds into the game UI like in 1800 -->
 				</Cost>
 			</Item>
 		</PossibleUpgrades>
+	</ModOp>
+
+
+
+	<!-- Add the upgraded piers into the existing assetpools so that buffs affect them -->
+	<ModOp Merge="@31666/AssetPool/AssetList">
+		<ModItem Merge="Asset">
+			<Asset>1400300050</Asset>
+		</ModItem>
+		<ModItem Merge="Asset">
+        	<Asset>1400300051</Asset>
+      	</ModItem>
+	</ModOp>
+
+	<ModOp Merge="@53356/AssetPool/AssetList">
+		<ModItem Merge="Asset">
+			<Asset>1400300050</Asset>
+		</ModItem>
+	</ModOp>
+
+
+	<ModOp Merge="@53357/AssetPool/AssetList">
+		<ModItem Merge="Asset">
+        	<Asset>1400300051</Asset>
+      	</ModItem>
 	</ModOp>
 
 
